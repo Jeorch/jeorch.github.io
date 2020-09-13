@@ -3,7 +3,15 @@ body{font-size:12px; font-family:"Microsoft YaHei";}
 ul{list-style-type:none;}
 a{text-decoration:none;}
 
-body{background:url(../images/dawnsky.jpg) left top repeat;}
+body {
+	background-image:url(../images/dawnsky.jpg); 
+	filter:"progid:DXImageTransform.Microsoft.AlphaImageLoader(sizingMethod='scale')";
+	background-repeat:no-repeat; 
+	background-size: cover; 
+	-webkit-background-size: cover; 
+	-moz-background-size: cover; 
+	-o-background-size: cover;
+}
 @font-face {
     font-weight: normal;
     font-style: normal;
